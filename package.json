@@ -1,0 +1,14 @@
+{
+  "name": "leetcode-typescript",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.4.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "style": "prettier --write"
+  }
+}

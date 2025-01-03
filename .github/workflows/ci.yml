@@ -1,0 +1,31 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches: [ 'main' ]
+    paths: [ '**/*.ts' ]
+  pull_request:
+
+env:
+  REPORT_NAME: 'lcov.info'
+
+jobs:
+  run_test_and_upload_codecov:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+      - name: Install Dependencies
+        run: bun install
+      - name: Generate Coverage
+        run: bun test --coverage --coverage-reporter=lcov
+      - name: Upload Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          directory: ./coverage/
+          files: '${{ env.REPORT_NAME }}'
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: shilin83/leetcode-typescript
+          fail_ci_if_error: true
+          verbose: true
