@@ -7,7 +7,8 @@
 
 ## 题库列表
 
-| 题号                                                 | 题目                                                      | 题解  | 难度 |
-|:---------------------------------------------------|:--------------------------------------------------------|:---:|:--:|
-| [0002](src/solutions/problem0002/addTwoNumbers.ts) | [✅ 两数相加](https://leetcode.cn/problems/add-two-numbers/) | 链表  | 中等 |
-| [0001](src/solutions/problem0001/twoSum.ts)        | [✅ 两数之和](https://leetcode.cn/problems/two-sum/)         | 哈希表 | 简单 |
+| 题号                                                                              | 题目                                                                                           |  题解  | 难度 |
+|:--------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------|:----:|:--:|
+| [0003](src/solutions/problem0003/longestSubstringWithoutRepeatingCharacters.ts) | [✅ 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/) | 滑动窗口 | 中等 |
+| [0002](src/solutions/problem0002/addTwoNumbers.ts)                              | [✅ 两数相加](https://leetcode.cn/problems/add-two-numbers/)                                      |  链表  | 中等 |
+| [0001](src/solutions/problem0001/twoSum.ts)                                     | [✅ 两数之和](https://leetcode.cn/problems/two-sum/)                                              | 哈希表  | 简单 |
