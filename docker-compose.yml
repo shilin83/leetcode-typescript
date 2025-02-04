@@ -1,0 +1,7 @@
+services:
+  leetcode-typescript:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: leetcode-typescript
+    container_name: leetcode-typescript

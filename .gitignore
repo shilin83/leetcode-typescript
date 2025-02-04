@@ -1,0 +1,6 @@
+.DS_Store
+.idea
+.vscode
+bun.lock
+node_modules
+coverage
