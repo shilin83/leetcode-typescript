@@ -7,8 +7,9 @@
 
 ## 题库列表
 
-| 题号                                                    | 题目                                                         | 题解  | 难度 |
-|:------------------------------------------------------|:-----------------------------------------------------------|:---:|:--:|
-| [0013](src/solutions/problem0013/romanToInteger.ts)   | [✅ 罗马数字转整数](https://leetcode.cn/problems/roman-to-integer) | 哈希表 | 简单 |
-| [0009](src/solutions/problem0009/palindromeNumber.ts) | [✅ 回文数](https://leetcode.cn/problems/palindrome-number)    | 数学  | 简单 |
-| [0001](src/solutions/problem0001/twoSum.ts)           | [✅ 两数之和](https://leetcode.cn/problems/two-sum)             | 哈希表 | 简单 |
+| 题号                                                       | 题目                                                             | 题解  | 难度 |
+|:---------------------------------------------------------|:---------------------------------------------------------------|:---:|:--:|
+| [0014](src/solutions/problem0014/longestCommonPrefix.ts) | [✅ 最长公共前缀](https://leetcode.cn/problems/longest-common-prefix) | 字符串 | 简单 |
+| [0013](src/solutions/problem0013/romanToInteger.ts)      | [✅ 罗马数字转整数](https://leetcode.cn/problems/roman-to-integer)     | 哈希表 | 简单 |
+| [0009](src/solutions/problem0009/palindromeNumber.ts)    | [✅ 回文数](https://leetcode.cn/problems/palindrome-number)        | 数学  | 简单 |
+| [0001](src/solutions/problem0001/twoSum.ts)              | [✅ 两数之和](https://leetcode.cn/problems/two-sum)                 | 哈希表 | 简单 |
