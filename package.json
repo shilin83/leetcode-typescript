@@ -1,0 +1,10 @@
+{
+	"name": "leetcode-typescript",
+	"devDependencies": {
+		"@types/bun": "^1.2.20",
+		"@biomejs/biome": "^2.2.2"
+	},
+	"dependencies": {
+		"@typescript/native-preview": "latest"
+	}
+}
